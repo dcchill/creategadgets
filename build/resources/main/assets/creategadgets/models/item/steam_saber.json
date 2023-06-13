@@ -1,0 +1,6 @@
+{
+  "parent": "creategadgets:displaysettings/steamsabermodel.item",
+  "textures": {
+    "layer0": "creategadgets:items/steamsaber"
+  }
+}

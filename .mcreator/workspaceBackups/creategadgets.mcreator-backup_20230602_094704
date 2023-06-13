@@ -1,0 +1,189 @@
+{
+  "mod_elements": [
+    {
+      "name": "GauntletBase1",
+      "type": "curiosbauble",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gauntlet_base_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creategadgets/models/item/gauntlet_base_1.json",
+          "src/main/java/net/creategadgets/item/GauntletBase1Item.java"
+        ]
+      }
+    },
+    {
+      "name": "GauntletBase2",
+      "type": "curiosbauble",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gauntlet_base_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/creategadgets/item/GauntletBase2Item.java",
+          "src/main/resources/assets/creategadgets/models/item/gauntlet_base_2.json"
+        ]
+      }
+    },
+    {
+      "name": "GauntletBase3",
+      "type": "curiosbauble",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gauntlet_base_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creategadgets/models/item/gauntlet_base_3.json",
+          "src/main/java/net/creategadgets/item/GauntletBase3Item.java"
+        ]
+      }
+    },
+    {
+      "name": "GauntletFist1",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gauntlet_fist_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creategadgets/models/item/gauntlet_fist_1.json",
+          "src/main/java/net/creategadgets/item/GauntletFist1Item.java"
+        ]
+      }
+    },
+    {
+      "name": "GauntletFist2",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gauntlet_fist_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/creategadgets/item/GauntletFist2Item.java",
+          "src/main/resources/assets/creategadgets/models/item/gauntlet_fist_2.json"
+        ]
+      }
+    },
+    {
+      "name": "BasicSteamFist",
+      "type": "curiosbauble",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_steam_fist",
+      "metadata": {
+        "files": [
+          "src/main/java/net/creategadgets/item/BasicSteamFistItem.java",
+          "src/main/resources/assets/creategadgets/models/item/basic_steam_fist.json"
+        ]
+      }
+    },
+    {
+      "name": "WhenHit",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "when_hit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/creategadgets/procedures/WhenHitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BasicSteamFistWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_steam_fist_while_bauble_is_equipped_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/creategadgets/procedures/BasicSteamFistWhileBaubleIsEquippedTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.creategadgets.gauntlet_base_3": "Upgraded Brass Gauntlet Wrist",
+      "item.creategadgets.basic_steam_fist": "Basic Steam Gauntlet",
+      "item.creategadgets.gauntlet_base_1": "Basic Gauntlet Wrist",
+      "item.creategadgets.gauntlet_base_2": "Brass Gauntlet Wrist",
+      "item.creategadgets.gauntlet_fist_2": "Brass Gauntlet Fist",
+      "item.creategadgets.gauntlet_fist_1": "Spiked Gauntlet Fist"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "creategadgets",
+    "modName": "CreateGadgets",
+    "version": "1.0.0",
+    "author": "daria, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api",
+      "geckolib",
+      "allmods"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.creategadgets",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300108712
+}

@@ -1,0 +1,12 @@
+{
+  "replace": "false",
+  "values": [
+    "minecraft:air",
+    "creategadgets:gauntlet_base_2",
+    "creategadgets:gauntlet_base_1",
+    "creategadgets:gauntlet_base_3",
+    "creategadgets:basic_steam_fist",
+    "creategadgets:brass_steam_fist",
+    "creategadgets:adv_steam_fist"
+  ]
+}
